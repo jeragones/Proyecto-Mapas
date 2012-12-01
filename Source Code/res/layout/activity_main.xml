@@ -2,7 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
-    
+	
+    <com.google.android.maps.MapView
+        android:id="@+id/mapa"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="00qJ1lZUfwN1rOdIq2YNZcW2ec_XgK6fV0jaKdA"
+        android:clickable="true" />
 
 </RelativeLayout>
